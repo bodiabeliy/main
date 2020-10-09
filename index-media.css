@@ -1,0 +1,40 @@
+@media screen and (max-width: 580px) {
+ .list {
+  width: 70%;
+  margin-left: -26%;
+ }
+  .icons {
+  padding-left: 23%;
+ }
+
+ .img {
+ left: -20%;
+ }
+.content-container {
+ width: 800px;
+}
+ .marker {
+  display: none;
+ }
+ .exp {
+  left: 240px;
+ }
+ .exp_text {
+  left: 240px;
+ }
+ .sal_text {
+  left: 370px;
+  top: 10px;
+ }
+ .sal {
+  left: 400px;
+ }
+ .cart_section {
+  position: absolute;
+  left: 500px;
+  width: 300px;
+ }
+ .detal_info {
+  width: 400px;
+ }
+}
