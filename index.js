@@ -52,38 +52,7 @@ function pagination(event) {
 }
 
 
-$('#arrow').click(() => {
- $('.detal_info').animate({"opacity": 1}, 1200, function() {
-   $('.top').click(() => {
- $('.detal_info').animate({"height": 0}, 600).fadeOut(0)
-  });
- })
-});
 
-$('#arrow2').click(() => {
-  $('.detal_info').animate({"opacity": 1}, 1200, function() {
-    $('.top').click(() => {
-  $('.detal_info').animate({"height": 0}, 600).fadeOut(0)
-   });
-  })
- });
- 
-
- $('#arrow3').click(() => {
-  $('.detal_info').animate({"opacity": 1}, 1200, function() {
-    $('.top').click(() => {
-  $('.detal_info').animate({"height": 0}, 600).fadeOut(0)
-   });
-  })
- });
- 
- $('#arrow4').click(() => {
-   $('.detal_info').animate({"opacity": 1}, 1200, function() {
-     $('.top').click(() => {
-   $('.detal_info').animate({"height": 0}, 600).fadeOut(0)
-    });
-   })
-  });
 
   $('#arrow5').click(() => {
     $('.detal_info').animate({"opacity": 1}, 1200, function() {
@@ -92,44 +61,3 @@ $('#arrow2').click(() => {
      });
     })
    });
-   
-   $('#arrow6').click(() => {
-     $('.detal_info').animate({"opacity": 1}, 1200, function() {
-       $('.top').click(() => {
-     $('.detal_info').animate({"height": 0}, 600).fadeOut(0)
-      });
-     })
-    });
-    
-   
-    $('#arrow7').click(() => {
-     $('.detal_info').animate({"opacity": 1}, 1200, function() {
-       $('.top').click(() => {
-     $('.detal_info').animate({"height": 0}, 600).fadeOut(0)
-      });
-     })
-    });
-    
-    $('#arrow8').click(() => {
-      $('.detal_info').animate({"opacity": 1}, 1200, function() {
-        $('.top').click(() => {
-      $('.detal_info').animate({"height": 0}, 600).fadeOut(0)
-       });
-      })
-     });
-
-     $('#arrow9').click(() => {
-      $('.detal_info').animate({"opacity": 1}, 1200, function() {
-        $('.top').click(() => {
-      $('.detal_info').animate({"height": 0}, 600).fadeOut(0)
-       });
-      })
-     });
-     
-     $('#arrow10').click(() => {
-       $('.detal_info').animate({"opacity": 1}, 1200, function() {
-         $('.top').click(() => {
-       $('.detal_info').animate({"height": 0}, 600).fadeOut(0)
-        });
-       })
-      });
