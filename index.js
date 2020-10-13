@@ -34,7 +34,6 @@ function pagination(event) {
   
   if (target.tagName.toLowerCase() != "span") return;
   
-  var num_ = id.substr(4);
   var data_page = +target.dataset.page;
   main_page.classList.remove("paginator_active");
   main_page = document.getElementById(id);
@@ -67,5 +66,9 @@ function Close() {
 }
 
 
+function InputSearch() {
+  var searching = document.getElementById('search').value;
+  alert(searching)
+}
 
   

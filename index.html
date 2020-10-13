@@ -54,12 +54,12 @@
         </div>
       </div> 
       <div class="input-content col-8 col-md-12">
-        <input class="placeholder-panel" style="border: none;" placeholder="Профессия, должность сотрудника">
+        <input id="search" class="placeholder-panel" style="border: none;" placeholder="Профессия, должность сотрудника">
         <div class="searching-panel">
           <div class="searching-extand">
             <i class="fas fa-sliders-h"><span><a href="#" class="extand-text">Расширенный поиск</a></span></i>
           </div>
-          <div class="searching-button">
+          <div class="searching-button" onclick="InputSearch()">
             <i class="far fa-search"><span class="searching-text">Поиск</span></i>
           </div>
         </div>
@@ -99,7 +99,7 @@
                   </div>
                   <div class="cart_section">
                     <div class="buttonCart">
-                      <span class="cart_text">В корзину<img src="image/Mas.png" class="mas" alt=""> грн.</span>
+                      <span class="cart_text"><span id="none">В корзину</span><img src="image/Mas.png" class="mas" alt=""><span id="none"> грн.</span></span>
                     </div>
                     <div  class="description_arrow"  onclick="Click()">
                     <span class="desc_text"> 4 мар.</span>
@@ -113,7 +113,7 @@
                   <div class="position-city">
                     <span class="position">Front-End Developer</span>
                     <img class="marker" src="image/map-marker-radius.png" alt="" style="width: 24px; height: 24px; position: absolute; top: 45px;">
-                    <span class="city">Киев</span>
+                    <span class="city">Житомир</span>
                   </div>
                   <div class="expirience">
                     <span class="exp_text">Опыт работы</span>
@@ -125,7 +125,7 @@
                   </div>
                   <div class="cart_section">
                     <div class="buttonCart">
-                      <span class="cart_text">В корзину<img src="image/Mas.png" class="mas" alt=""> грн.</span>
+                      <span class="cart_text"><span id="none">В корзину</span><img src="image/Mas.png" class="mas" alt=""><span id="none"> грн.</span></span>
                     </div>
                     <div class="description_arrow "  onclick="Click()">
                     <span class="desc_text"> 24 мар.</span>
@@ -151,7 +151,7 @@
                   </div>
                   <div class="cart_section">
                     <div class="buttonCart">
-                      <span class="cart_text">В корзину<img src="image/Mas.png" class="mas" alt=""> грн.</span>
+                      <span class="cart_text"><span id="none">В корзину</span><img src="image/Mas.png" class="mas" alt=""><span id="none"> грн.</span></span>
                     </div>
                     <div class="description_arrow"  onclick="Click()">
                     <span class="desc_text"> 2 мар.</span>
@@ -165,7 +165,7 @@
                   <div class="position-city">
                     <span class="position">Front-End Developer</span>
                     <img class="marker" src="image/map-marker-radius.png" alt="" style="width: 24px; height: 24px; position: absolute; top: 45px;">
-                    <span class="city">Киев</span>
+                    <span class="city">Винница</span>
                   </div>
                   <div class="expirience">
                     <span class="exp_text">Опыт работы</span>
@@ -177,7 +177,7 @@
                   </div>
                   <div class="cart_section">
                     <div class="buttonCart">
-                      <span class="cart_text">В корзину<img src="image/Mas.png" class="mas" alt="">грн.</span>
+                      <span class="cart_text"><span id="none">В корзину</span><img src="image/Mas.png" class="mas" alt=""><span id="none"> грн.</span></span>
                     </div>
                     <div class="description_arrow"  onclick="Click()">
                     <span class="desc_text"> 7 мар.</span>
@@ -203,7 +203,7 @@
                   </div>
                   <div class="cart_section">
                     <div class="buttonCart">
-                      <span class="cart_text">В корзину<img src="image/Mas.png" class="mas" alt=""> грн.</span>
+                      <span class="cart_text"><span id="none">В корзину</span><img src="image/Mas.png" class="mas" alt=""><span id="none"> грн.</span></span>
                     </div>
                     <div id="arrow5" class="description_arrow"  onclick="Click()">
                     <span class="desc_text"> 18 мар.</span>
@@ -218,7 +218,7 @@
                   <div class="position-city">
                     <span class="position">Front-End Developer</span>
                     <img class="marker" src="image/map-marker-radius.png" alt="" style="width: 24px; height: 24px; position: absolute; top: 45px;">
-                    <span class="city">Киев</span>
+                    <span class="city">Житомир</span>
                   </div>
                   <div class="expirience">
                     <span class="exp_text">Опыт работы</span>
@@ -230,7 +230,7 @@
                   </div>
                   <div class="cart_section">
                     <div class="buttonCart">
-                      <span class="cart_text">В корзину<img src="image/Mas.png" class="mas" alt=""> грн.</span>
+                      <span class="cart_text"><span id="none">В корзину</span><img src="image/Mas.png" class="mas" alt=""><span id="none"> грн.</span></span>
                     </div>
                     <div id="arrow6" class="description_arrow" onclick="Click()">
                     <span class="desc_text"> 4 мар.</span>
@@ -244,7 +244,7 @@
                   <div class="position-city">
                     <span class="position">Front-End Developer</span>
                     <img class="marker" src="image/map-marker-radius.png" alt="" style="width: 24px; height: 24px; position: absolute; top: 45px;">
-                    <span class="city">Киев</span>
+                    <span class="city">Львов</span>
                   </div>
                   <div class="expirience">
                     <span class="exp_text">Опыт работы</span>
@@ -256,7 +256,7 @@
                   </div>
                   <div class="cart_section">
                     <div class="buttonCart">
-                      <span class="cart_text">В корзину<img src="image/Mas.png" class="mas" alt=""> грн.</span>
+                      <span class="cart_text"><span id="none">В корзину</span><img src="image/Mas.png" class="mas" alt=""><span id="none"> грн.</span></span>
                     </div>
                     <div id="arrow7" class="description_arrow" >
                     <span class="desc_text"> 4 мар.</span>
@@ -270,7 +270,7 @@
                   <div class="position-city">
                     <span class="position">Front-End Developer</span>
                     <img class="marker" src="image/map-marker-radius.png" alt="" style="width: 24px; height: 24px; position: absolute; top: 45px;">
-                    <span class="city">Киев</span>
+                    <span class="city">Одеса</span>
                   </div>
                   <div class="expirience">
                     <span class="exp_text">Опыт работы</span>
@@ -282,9 +282,9 @@
                   </div>
                   <div class="cart_section">
                     <div class="buttonCart">
-                      <span class="cart_text">В корзину<img src="image/Mas.png" class="mas" alt="">грн.</span>
+                      <span class="cart_text"><span id="none">В корзину</span><img src="image/Mas.png" class="mas" alt=""><span id="none"> грн.</span></span>
                     </div>
-                    <div id="arrow8" class="description_arrow" >
+                    <div id="arrow8" class="description_arrow"  onclick="Click()">
                     <span class="desc_text"> 28 мар.</span>
                     <i class="fas fa-chevron-down"></i>
                     </div>
@@ -308,11 +308,11 @@
                   </div>
                   <div class="cart_section">
                     <div class="buttonCart">
-                      <span class="cart_text">В корзину<img src="image/Mas.png" class="mas" alt=""> грн.</span>
+                      <span class="cart_text"><span id="none">В корзину</span><img src="image/Mas.png" class="mas" alt=""><span id="none"> грн.</span></span>
                     </div>
                     <div id="arrow9" class="description_arrow" >
                     <span class="desc_text"> 1 мар.</span>
-                    <i class="fas fa-chevron-down"></i>
+                    <i class="fas fa-chevron-down"  onclick="Click()"></i>
                     </div>
                   </div>
             </div>
@@ -323,7 +323,7 @@
                   <div class="position-city">
                     <span class="position">Front-End Developer</span>
                     <img class="marker" src="image/map-marker-radius.png" alt="" style="width: 24px; height: 24px; position: absolute; top: 45px;">
-                    <span class="city">Киев</span>
+                    <span class="city">Суммы</span>
                   </div>
                   <div class="expirience">
                     <span class="exp_text">Опыт работы</span>
@@ -335,11 +335,11 @@
                   </div>
                   <div class="cart_section">
                     <div class="buttonCart">
-                      <span class="cart_text">В корзину<img src="image/Mas.png" class="mas" alt=""> грн.</span>
+                      <span class="cart_text"><span id="none">В корзину</span><img src="image/Mas.png" class="mas" alt=""><span id="none"> грн.</span></span>
                     </div>
                     <div id="arrow10" class="description_arrow" >
                     <span class="desc_text"> 6 мар.</span>
-                    <i class="fas fa-chevron-down"></i>
+                    <i class="fas fa-chevron-down"  onclick="Click2()"></i>
                     </div>
                   </div>
             </div>
@@ -393,6 +393,9 @@
                     </div>
                   </div>
                 </div>
+
+
+                
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

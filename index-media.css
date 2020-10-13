@@ -49,11 +49,17 @@
 .cart_section {
  width: 90px;
 }
-.cart_text{
+
+.mas  {
+left: 0;
+}
+#none {
  display: none;
 }
 .buttonCart {
  width: 50px;
+ border: none;
+
  background-image: url('/image/Vector.png');
 }
 
@@ -77,5 +83,17 @@
  top: 0px;
  background: #fff;
  margin: 20px 10px;
+}
+.searching-panel {
+ left: 47.5%;
+}
+.icons {
+ display: flex;
+ flex-direction: column;
+ top: 17%;
+ left:87%;
+}
+.pagination {
+ left: 360px;
 }
 }

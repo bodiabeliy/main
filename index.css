@@ -70,6 +70,7 @@ li {
 .list-wr {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: flex-start;
   padding: 0px;
 
@@ -152,7 +153,9 @@ padding: 13px 0px 0px 20px;
 background: #FE6347;
 border-radius: 5px;
 }
-
+.searching-button:hover {
+  background: rgb(211, 34, 34);
+}
 .buttonCart:hover {
   background: white;
 }
@@ -445,8 +448,8 @@ opacity: 0.4;
   top: 0px;
   background:white;
   border: 1px #2699FB solid;
-  border-radius: 5px 
-
+  border-radius: 5px;
+  margin-left: 24px;
 }
 
 .second_pagination {
