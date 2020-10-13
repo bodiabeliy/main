@@ -1,4 +1,4 @@
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 770px) {
  .list {
   width: 70%;
   margin-left: -26%;
@@ -37,4 +37,45 @@
  .detal_info {
   width: 400px;
  }
+ .by_page {
+  left: 65%;
+ }
+
+.content-container {
+ position: absolute;
+ width: 620px;
+}
+
+.cart_section {
+ width: 90px;
+}
+.cart_text{
+ display: none;
+}
+.buttonCart {
+ width: 50px;
+ background-image: url('/image/Vector.png');
+}
+
+ .main {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 920px;
+  height: 370px;
+  left: 30px;
+  top: 12px;
+  background: #fff;
+  margin: 0px;
+
+}
+.left_text {
+ position: relative;
+ width: 440px;
+ height: 300px;
+ left: 0px;
+ top: 0px;
+ background: #fff;
+ margin: 20px 10px;
+}
 }

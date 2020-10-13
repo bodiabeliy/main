@@ -1,3 +1,6 @@
+
+
+
 var count = 10; //всего записей
 var cnt = 5; //сколько отображаем сначала
 var cnt_page = Math.ceil(count / cnt); //кол-во страниц
@@ -51,13 +54,18 @@ function pagination(event) {
   }
 }
 
+function Click() {
+  var pop_up = document.getElementById('popup');
+  pop_up.classList.add('animate__animated', 'animate__backInDown');
+  pop_up.style.setProperty('--animate-duration', '1s');
+}
+
+function Close() {
+  var pop_up = document.getElementById('popup');
+  pop_up.classList.add('animate__animated', 'animate__fadeOutUp');
+  pop_up.style.setProperty('--animate-duration', '.5s');
+}
 
 
 
-  $('#arrow5').click(() => {
-    $('.detal_info').animate({"opacity": 1}, 1200, function() {
-      $('.top').click(() => {
-    $('.detal_info').animate({"height": 0}, 600).fadeOut(0)
-     });
-    })
-   });
+  

@@ -313,6 +313,11 @@ opacity: 0.4;
   color: #375A64 !important;
 }
 
+.mas {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
 .buttonCart {
   padding: 11px 0px 0px 16px;
   position: absolute;
@@ -534,6 +539,7 @@ opacity: 0.4;
 
 .detal_info {
   position: absolute;
+  
   width: 980px;
   height: 429px;
   border: 1px solid #E6F0FF;
@@ -541,7 +547,7 @@ opacity: 0.4;
   border-radius: 5px;
   z-index: 3;
   opacity:0;
-  margin: 10% 10%;
+  margin:400px 150px;
 }
 
 .main {
