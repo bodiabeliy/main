@@ -67,8 +67,26 @@ function Close() {
 
 
 function InputSearch() {
+  /*
   var searching = document.getElementById('search').value;
-  alert(searching)
+  var position = document.getElementById("6").innerHTML;
+  if (searching === position) {
+    var one = document.querySelector('.one')
+    one.style.display = "none"
+  }
+  */
+  var searching = document.getElementById('search').value; //значение инпута
+  var all = document.querySelector('.page').textContent.split(' ')  //список всех должностей
+  //var position = document.getElementById("6").innerHTML; //значение инпута
+    var div_num = document.querySelectorAll(".num");
+    for (var i = 0; i < div_num.length; i++) {
+      console.log(all);
+      if (searching.value === all.value) {
+        alert("ura!");break
+      }
+    }
+
+
 }
 
   
