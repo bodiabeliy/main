@@ -83,13 +83,16 @@ function InputSearch() {
 
     for (var i = 0; i < div_num.length; i++) {
       span = div_num[i].querySelectorAll('.content-container')[0]
+      
       var city = document.querySelectorAll('.city')[i]
-      console.log(city);
+      var ex =  document.querySelectorAll('.exp')[i]
+      sal =  document.querySelectorAll('.sal')[0]
+      console.log(ex);
       if (span.innerHTML.indexOf(filter) > -1 ) {
-        span.style.display = "none"
+        span.style.display = ""
       }
       else {
-        span.style.display = ""
+        span.style.display = "none"
       }
     }
 
