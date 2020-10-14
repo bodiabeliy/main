@@ -73,6 +73,7 @@ left: 0;
   top: 12px;
   background: #fff;
   margin: 0px;
+  z-index: 50;
 
 }
 .left_text {
