@@ -14,3 +14,4 @@
 [1013/194417.427:ERROR:process_reader_win.cc(123)] NtOpenThread: {Отказано в доступе} Процесс запросил доступ к объекту, но права на доступ не предоставлены. (0xc0000022)
 [1013/194417.427:ERROR:exception_snapshot_win.cc(99)] thread ID 6280 not found in process
 [1013/195820.768:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)
+[1014/104735.389:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)

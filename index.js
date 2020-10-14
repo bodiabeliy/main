@@ -75,18 +75,24 @@ function InputSearch() {
     one.style.display = "none"
   }
   */
-  var searching = document.getElementById('search').value; //значение инпута
-  var all = document.querySelector('.page').textContent.split(' ')  //список всех должностей
-  //var position = document.getElementById("6").innerHTML; //значение инпута
+  var searching = document.getElementById('search') //значение инпута
+  var filter = searching.value
+  var all = document.querySelector('.page')  //список всех должностей
+  var span, div = document.querySelector('.content-container').textContent;
     var div_num = document.querySelectorAll(".num");
+
     for (var i = 0; i < div_num.length; i++) {
-      console.log(all);
-      if (searching.value === all.value) {
-        alert("ura!");break
+      span = div_num[i].querySelectorAll('.content-container')[0]
+      var city = document.querySelectorAll('.city')[i]
+      console.log(city);
+      if (span.innerHTML.indexOf(filter) > -1 ) {
+        span.style.display = "none"
+      }
+      else {
+        span.style.display = ""
       }
     }
 
 
 }
 
-  
